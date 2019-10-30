@@ -133,14 +133,14 @@ class RegimeItem extends StatelessWidget {
                           '5 kg',
                           style: descriptionTextStyle,
                         ),
-                        Row(
-                          // crossAxisAlignment: CrossAxisAlignment.center,
-                          children: <Widget>[
-                            Icon(Icons.brightness_low),
-                            Icon(Icons.brightness_medium),
-                            Icon(Icons.brightness_3),
-                          ],
-                        ),
+                        // Row(
+                        //   // crossAxisAlignment: CrossAxisAlignment.center,
+                        //   children: <Widget>[
+                        //     Icon(Icons.brightness_low),
+                        //     Icon(Icons.brightness_medium),
+                        //     Icon(Icons.brightness_3),
+                        //   ],
+                        // ),
                         Row(
                           children: <Widget>[
                             Icon(Icons.euro_symbol),

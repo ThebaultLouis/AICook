@@ -31,7 +31,6 @@ class _HomePageNavigationState extends State<HomePageNavigation> {
   final Color bgColor = Color(0xffF9E0E3);
   final Color secondaryColor = Color(0xff324558);
   int _selectedIndex = 0;
-  int _current_drag = 0;
 
   final List<Widget> _children = <Widget>[
     RecettePage(),

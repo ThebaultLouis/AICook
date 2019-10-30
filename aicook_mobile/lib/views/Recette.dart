@@ -1,4 +1,5 @@
 import 'package:aicook_mobile/components/recette/RecetteList.dart';
+import 'package:aicook_mobile/components/recette/RecetteSearchBar.dart';
 import 'package:aicook_mobile/style/colors.dart';
 import 'package:flutter/material.dart';
 
@@ -10,7 +11,11 @@ class RecettePage extends StatelessWidget {
     return Container(
       child: Scaffold(
         backgroundColor: UsefulColors.bg,
-        body: RecetteList(),
+
+        body: SingleChildScrollView(
+            child: Column(
+          children: <Widget>[RecetteSearchBar(), RecetteList()],
+        )),
         floatingActionButton: FloatingActionButton(
           backgroundColor: UsefulColors.peche4,
           onPressed: () {},

@@ -8,6 +8,8 @@ class RegimeList extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
         child: ListView.builder(
+      shrinkWrap: true,
+      physics: NeverScrollableScrollPhysics(),
       itemCount: 20,
       itemBuilder: (BuildContext ctx, int index) {
         return RegimeItem(

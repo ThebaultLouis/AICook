@@ -8,6 +8,9 @@ class RecetteList extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
         child: ListView.builder(
+      physics: NeverScrollableScrollPhysics(),
+      shrinkWrap: true,
+      // primary: false,
       itemCount: 20,
       itemBuilder: (BuildContext ctx, int index) {
         return RecetteItem(

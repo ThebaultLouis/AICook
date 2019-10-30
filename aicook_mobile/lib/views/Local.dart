@@ -1,4 +1,5 @@
 import 'package:aicook_mobile/components/local/LocalList.dart';
+import 'package:aicook_mobile/components/local/LocalSearchBar.dart';
 import 'package:aicook_mobile/style/colors.dart';
 import 'package:flutter/material.dart';
 
@@ -10,7 +11,10 @@ class LocalPage extends StatelessWidget {
     return Container(
       child: Scaffold(
         backgroundColor: UsefulColors.bg,
-        body: LocalList(),
+        body: SingleChildScrollView(
+            child: Column(
+          children: <Widget>[LocalSearchBar(), LocalList()],
+        )),
         floatingActionButton: FloatingActionButton(
           backgroundColor: UsefulColors.peche4,
           onPressed: () {},

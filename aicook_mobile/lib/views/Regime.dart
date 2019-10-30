@@ -1,4 +1,5 @@
 import 'package:aicook_mobile/components/regime/RegimeList.dart';
+import 'package:aicook_mobile/components/regime/RegimeSearchBar.dart';
 import 'package:flutter/material.dart';
 
 class RegimePage extends StatelessWidget {
@@ -6,6 +7,9 @@ class RegimePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(child: Center(child: RegimeList()));
+    return SingleChildScrollView(
+        child: Column(
+      children: <Widget>[RegimeSearchBar(), RegimeList()],
+    ));
   }
 }

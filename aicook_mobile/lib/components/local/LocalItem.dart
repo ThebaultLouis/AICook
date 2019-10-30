@@ -56,7 +56,7 @@ class LocalItem extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
                             Text(
-                              "La ferme de dédé",
+                              "La ferme à dédé",
                               style: TextStyle(
                                   color: Colors.deepOrange,
                                   fontWeight: FontWeight.w700,
