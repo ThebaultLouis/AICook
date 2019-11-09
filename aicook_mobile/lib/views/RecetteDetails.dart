@@ -89,11 +89,33 @@ class RecetteDetailsPage extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: <Widget>[
                           _buildInfo("4", Icons.people),
-                          _buildInfo("15 min", Icons.work),
-                          _buildInfo("25 min", Icons.hourglass_empty),
+                          _buildInfo("15 min", Icons.hourglass_empty),
+                          _buildInfo("25 min", Icons.kitchen),
                         ],
                       ),
                       const SizedBox(height: 30.0),
+                      Text(
+                        "Ingrédients".toUpperCase(),
+                        style: TextStyle(
+                            fontWeight: FontWeight.w600, fontSize: 14.0),
+                      ),
+                      const SizedBox(height: 10.0),
+                      Column(
+                        children: List.generate(5, (index) {
+                          return Container(
+                              padding: new EdgeInsets.all(8.0),
+                              child: Row(
+                                children: <Widget>[
+                                  Icon(Icons.crop_square),
+                                  const SizedBox(
+                                    width: 7,
+                                  ),
+                                  Text("Aliment numero $index"),
+                                ],
+                              ));
+                        }),
+                      ),
+                      const SizedBox(height: 10.0),
                       Text(
                         "Recette".toUpperCase(),
                         style: TextStyle(

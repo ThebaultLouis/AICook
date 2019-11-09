@@ -64,21 +64,6 @@ class RecetteItem extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 16.0),
                       child: Row(
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        children: <Widget>[
-                          Text(
-                            "John cena",
-                            style: TextStyle(
-                              color: Colors.grey,
-                              fontSize: 14.0,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(16.0),
-                      child: Row(
                         children: <Widget>[
                           Text(
                             "Plat Principal",
@@ -90,24 +75,39 @@ class RecetteItem extends StatelessWidget {
                         ],
                       ),
                     ),
-                    // const SizedBox(height: 20.0),
+                    // Padding(
+                    //   padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                    //   child: Row(
+                    //     mainAxisAlignment: MainAxisAlignment.start,
+                    //     children: <Widget>[
+                    //       Text(
+                    //         "John cena",
+                    //         style: TextStyle(
+                    //           color: Colors.grey,
+                    //           fontSize: 14.0,
+                    //         ),
+                    //       ),
+                    //     ],
+                    //   ),
+                    // ),
+                    const SizedBox(height: 20.0),
                   ],
                 ),
-                Positioned(
-                  top: 190,
-                  left: 20.0,
-                  child: Container(
-                    color: UsefulColors.rust,
-                    padding: const EdgeInsets.all(4.0),
-                    child: Text(
-                      "Nouveau",
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 12.0,
-                      ),
-                    ),
-                  ),
-                )
+                // Positioned(
+                //   top: 190,
+                //   left: 20.0,
+                //   child: Container(
+                //     color: UsefulColors.rust,
+                //     padding: const EdgeInsets.all(4.0),
+                //     child: Text(
+                //       "Nouveau",
+                //       style: TextStyle(
+                //         color: Colors.white,
+                //         fontSize: 12.0,
+                //       ),
+                //     ),
+                //   ),
+                // )
               ],
             ),
           ),

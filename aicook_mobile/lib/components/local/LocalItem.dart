@@ -1,4 +1,3 @@
-import 'package:aicook_mobile/style/colors.dart';
 import 'package:aicook_mobile/views/LocalDetails.dart';
 import 'package:flutter/material.dart';
 
@@ -67,58 +66,9 @@ class LocalItem extends StatelessWidget {
                               style: TextStyle(
                                   fontSize: 14, color: Colors.black87),
                             ),
-
-                            // Text(
-                            //   item.place,
-                            //   style: TextStyle(fontSize: 14, color: Colors.black87),
-                            // ),
                             SizedBox(
                               height: 10,
                             ),
-                            // Row(
-                            //   children: <Widget>[
-                            //     Icon(
-                            //       Icons.star,
-                            //       color: UsefulColors.peche4,
-                            //       size: 18,
-                            //     ),
-                            //     Icon(
-                            //       Icons.star,
-                            //       color: UsefulColors.peche4,
-                            //       size: 18,
-                            //     ),
-                            //     Icon(
-                            //       Icons.star,
-                            //       color: UsefulColors.peche4,
-                            //       size: 18,
-                            //     ),
-                            //     Icon(
-                            //       Icons.star,
-                            //       color: UsefulColors.peche4,
-                            //       size: 18,
-                            //     ),
-                            //     Icon(
-                            //       Icons.star,
-                            //       color: UsefulColors.peche4,
-                            //       size: 18,
-                            //     ),
-                            //   ],
-                            // ),
-                            // Row(
-                            //   children: <Widget>[
-                            //     Text(
-                            //       "5.0/80",
-                            //       style: TextStyle(fontSize: 13),
-                            //     ),
-                            //     SizedBox(
-                            //       width: 5,
-                            //     ),
-                            //     Text(
-                            //       "Ratings",
-                            //       style: TextStyle(fontSize: 13),
-                            //     ),
-                            //   ],
-                            // )
                           ],
                         ),
                       ),

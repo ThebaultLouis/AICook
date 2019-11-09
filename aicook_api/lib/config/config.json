@@ -1,0 +1,9 @@
+{
+  "development": {
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:27017/ai_cook",
+    "URL": "localhost",
+    "ADMIN_PW": "admin",
+    "JWT_SECRET": "zfihvguhidjivhjfcvbxsgzsfwghbedfgcuxjnzvergfcjxnvegdh"
+  }
+}

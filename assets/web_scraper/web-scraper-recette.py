@@ -5,20 +5,20 @@ import pandas as pd
 
 
 recettes_urls = pd.read_json(r'recettes-urls.json')
-aliments_db = pd.read_json(r'aliments.json')
+# aliments_db = pd.read_json(r'aliments.json')
 recettes = []
 
 units = ['ml', 'l', 'cl', 'g', 'kg', 'mg']
 
 
-def format_string(name):
-    name = name.strip().lower()
-    unit = ""
-    names = name.split(' ')
-    if (names[0] in units):
-        unit = names[0]
-        return ' '.join(names[2:]), unit
-    return name, unit
+# def format_string(name):
+#     name = name.strip().lower()
+#     unit = ""
+#     names = name.split(' ')
+#     if (names[0] in units):
+#         unit = names[0]
+#         return ' '.join(names[2:]), unit
+#     return name, unit
 
 
 for index, recette in recettes_urls.iterrows():
@@ -45,9 +45,9 @@ for index, recette in recettes_urls.iterrows():
             'div', {'recipe-infos__level__container'})['class'][1]).split("level-")[1]
 
         temps_prep = soup.find_all('div', attrs={"recipe-infos__timmings__preparation"})[0].find_next(
-            'span', attrs={"recipe-infos__timmings__value"}).string.replace('\t', '').replace('\r', '')
+            'span', attrs={"recipe-infos__timmings__value"}).string.replace('\t', '').replace('\r', '').replace('\n', '')
         temps_cuisson = soup.find_all('div', attrs={"recipe-infos__timmings__cooking"})[0].find_next(
-            'span', attrs={"recipe-infos__timmings__value"}).string.string.replace('\t', '').replace('\r', '').replace('\n', '')
+            'span', attrs={"recipe-infos__timmings__value"}).string.string.replace('\t', '').replace('\r', '').replace('\n', '').replace('\n', '')
 
         # Trouver les ingrédients
         ingredients = []
@@ -56,17 +56,21 @@ for index, recette in recettes_urls.iterrows():
         for i in range(len(ingredients_soup)):
             value = ingredients_soup[i].find_next(
                 'div').find_next('span', attrs={'recipe-ingredient-qt'}).string
-            # TODO : mapper le nom de l'alliment avec la database
             name = ingredients_soup[i].find_next('div').find_next(
-                'span', attrs={'ingredient'}).string
-            name, unit = format_string(name)
-            for index, aliment in aliments_db.iterrows():
-                if name == aliment['name']:
-                    ingredients.append({
-                        "value": value,
-                        "name": name,
-                        "aliment_index": aliment['index']
-                    })
+                'span', attrs={'ingredient'}).string.strip().lower()
+            ingredients.append({
+                "value": value,
+                "name": name
+            })
+
+            # name, unit = format_string(name)
+            # for index, aliment in aliments_db.iterrows():
+            #     if name == aliment['name']:
+            #         ingredients.append({
+            #             "value": value,
+            #             "name": name
+            #             # "aliment_index": aliment['index']
+            #         })
 
         # Trouver les étapes
         etapes = []
@@ -80,10 +84,11 @@ for index, recette in recettes_urls.iterrows():
 
         recettes.append({
             "name": recette['name'],
+            "image": recette['image'],
             # "ingredient_principale": recette['ingredient_name'],
             # "index_ingredient_principal": recette['ingredient_index'],
             "type_recette": type_recette,
-            "n_personne": n_personnes,
+            "nb_personne": n_personnes,
             "difficulty": difficulty,
             "prix": prix,
             "temps_total": temps_total,
