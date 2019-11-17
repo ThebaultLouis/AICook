@@ -15,7 +15,9 @@ def format_string(name):
     names = name.split(' ')
     if (names[0] in units):
         unit = names[0]
-        return ' '.join(names[2:]), unit
+        if (names[1] == "de"):
+            return ' '.join(names[2:]), unit
+        return ' '.join(names[1:]), unit
     return name, unit
 
 
@@ -27,24 +29,30 @@ for index, recette in recettes_urls.iterrows():
 
     # Trouver les ingrédients
     aliments_soup = soup.find_all('li', 'recipe-ingredients__list__item')
+
     for i in range(len(aliments_soup)):
         name = aliments_soup[i].find_next('div').find_next(
             'span', attrs={'ingredient'}).string
         name, unit = format_string(name)
+        value = aliments_soup[i].find_next('div').find_next(
+            'span', attrs={'recipe-ingredient-qt'}).string
 
         image = aliments_soup[i].find_next('img')['src']
 
         for aliment in aliments:
-            if (name == aliment['name']):
-                break
+            if aliment['image'] == image:
+                if name in aliment['names']:
+                    break
+                else:
+                    aliment['names'].append(name)
+                    break
         else:
-            aliments.append({
-                "index": len(aliments),
-                "name": name,
-                "image": image,
-                'unit': unit
-            })
-
+            aliments.append(
+                {
+                    "index": len(aliments),
+                    "image": image,
+                    "names": [name],
+                })
 
 df = pd.DataFrame(aliments)
 

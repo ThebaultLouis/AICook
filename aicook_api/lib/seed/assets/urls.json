@@ -1,0 +1,350 @@
+[
+  {
+    "index": 0,
+    "main": true,
+    "name": "boissons",
+    "url": "https://cuisine-libre.fr/boissons/"
+  },
+  {
+    "index": 1,
+    "main": true,
+    "name": "fruits et legumes",
+    "url": "https://cuisine-libre.fr/fruits-et-legumes/"
+  },
+  {
+    "index": 2,
+    "main": true,
+    "name": "cereales et feculents",
+    "url": "https://cuisine-libre.fr/cereales-et-feculents/"
+  },
+  {
+    "index": 3,
+    "main": true,
+    "name": "produits laitiers",
+    "url": "https://cuisine-libre.fr/produits-laitiers/"
+  },
+  {
+    "index": 4,
+    "main": true,
+    "name": "viande poisson oeuf",
+    "url": "https://cuisine-libre.fr/viande-poisson-oeuf/"
+  },
+  {
+    "index": 5,
+    "main": true,
+    "name": "corps gras",
+    "url": "https://cuisine-libre.fr/corps-gras/"
+  },
+  {
+    "index": 6,
+    "main": true,
+    "name": "sucre",
+    "url": "https://cuisine-libre.fr/sucre/"
+  },
+  {
+    "index": 10,
+    "main": false,
+    "name": "agrumes",
+    "url": "https://cuisine-libre.fr/agrumes/#ingredients"
+  },
+  {
+    "index": 11,
+    "main": false,
+    "name": "algues",
+    "url": "https://cuisine-libre.fr/algues/#ingredients"
+  },
+  {
+    "index": 12,
+    "main": false,
+    "name": "baies",
+    "url": "https://cuisine-libre.fr/baies/#ingredients"
+  },
+  {
+    "index": 13,
+    "main": false,
+    "name": "bulbes",
+    "url": "https://cuisine-libre.fr/bulbes/#ingredients"
+  },
+  {
+    "index": 14,
+    "main": false,
+    "name": "champignons",
+    "url": "https://cuisine-libre.fr/champignons/#ingredients"
+  },
+  {
+    "index": 15,
+    "main": false,
+    "name": "choux",
+    "url": "https://cuisine-libre.fr/choux/#ingredients"
+  },
+  {
+    "index": 16,
+    "main": false,
+    "name": "courges",
+    "url": "https://cuisine-libre.fr/courges/#ingredients"
+  },
+  {
+    "index": 17,
+    "main": false,
+    "name": "courges musquees",
+    "url": "https://cuisine-libre.fr/courges-musquees/#ingredients"
+  },
+  {
+    "index": 18,
+    "main": false,
+    "name": "courges potageres",
+    "url": "https://cuisine-libre.fr/courges-potageres/#ingredients"
+  },
+  {
+    "index": 19,
+    "main": false,
+    "name": "feuilles",
+    "url": "https://cuisine-libre.fr/feuilles/#ingredients"
+  },
+  {
+    "index": 20,
+    "main": false,
+    "name": "fleurs",
+    "url": "https://cuisine-libre.fr/fleurs/#ingredients"
+  },
+  {
+    "index": 21,
+    "main": false,
+    "name": "fruits",
+    "url": "https://cuisine-libre.fr/fruits/#ingredients"
+  },
+  {
+    "index": 22,
+    "main": false,
+    "name": "fruits rouges",
+    "url": "https://cuisine-libre.fr/fruits-rouges/#ingredients"
+  },
+  {
+    "index": 23,
+    "main": false,
+    "name": "herbes",
+    "url": "https://cuisine-libre.fr/herbes/#ingredients"
+  },
+  {
+    "index": 24,
+    "main": false,
+    "name": "legumes",
+    "url": "https://cuisine-libre.fr/legumes/#ingredients"
+  },
+  {
+    "index": 25,
+    "main": false,
+    "name": "legumes verts",
+    "url": "https://cuisine-libre.fr/legumes-verts/#ingredients"
+  },
+  {
+    "index": 26,
+    "main": false,
+    "name": "legumes fruits",
+    "url": "https://cuisine-libre.fr/legumes-fruits/#ingredients"
+  },
+  {
+    "index": 27,
+    "main": false,
+    "name": "noix et graines",
+    "url": "https://cuisine-libre.fr/noix-et-graines/#ingredients"
+  },
+  {
+    "index": 28,
+    "main": false,
+    "name": "courges geantes",
+    "url": "https://cuisine-libre.fr/courges-geantes/#ingredients"
+  },
+  {
+    "index": 29,
+    "main": false,
+    "name": "racines",
+    "url": "https://cuisine-libre.fr/racines/#ingredients"
+  },
+  {
+    "index": 30,
+    "main": false,
+    "name": "salade",
+    "url": "https://cuisine-libre.fr/salade/#ingredients"
+  },
+  {
+    "index": 31,
+    "main": false,
+    "name": "tiges",
+    "url": "https://cuisine-libre.fr/tiges/#ingredients"
+  },
+  {
+    "index": 10,
+    "main": false,
+    "name": "cereales",
+    "url": "https://cuisine-libre.fr/cereales/#ingredients"
+  },
+  {
+    "index": 11,
+    "main": false,
+    "name": "farines",
+    "url": "https://cuisine-libre.fr/farines/#ingredients"
+  },
+  {
+    "index": 12,
+    "main": false,
+    "name": "haricots",
+    "url": "https://cuisine-libre.fr/haricots/#ingredients"
+  },
+  {
+    "index": 13,
+    "main": false,
+    "name": "legumineuses",
+    "url": "https://cuisine-libre.fr/legumineuses/#ingredients"
+  },
+  {
+    "index": 14,
+    "main": false,
+    "name": "lentilles",
+    "url": "https://cuisine-libre.fr/lentilles/#ingredients"
+  },
+  {
+    "index": 15,
+    "main": false,
+    "name": "soja",
+    "url": "https://cuisine-libre.fr/soja/#ingredients"
+  },
+  {
+    "index": 16,
+    "main": false,
+    "name": "tubercules",
+    "url": "https://cuisine-libre.fr/tubercules/#ingredients"
+  },
+  {
+    "index": 10,
+    "main": false,
+    "name": "fromages",
+    "url": "https://cuisine-libre.fr/fromages/#ingredients"
+  },
+  {
+    "index": 11,
+    "main": false,
+    "name": "fromages a pate demi ferme",
+    "url": "https://cuisine-libre.fr/fromages-a-pate-demi-ferme/#ingredients"
+  },
+  {
+    "index": 12,
+    "main": false,
+    "name": "fromages a pate dure",
+    "url": "https://cuisine-libre.fr/fromages-a-pate-dure/#ingredients"
+  },
+  {
+    "index": 13,
+    "main": false,
+    "name": "fromages a pate ferme",
+    "url": "https://cuisine-libre.fr/fromages-a-pate-ferme/#ingredients"
+  },
+  {
+    "index": 14,
+    "main": false,
+    "name": "fromages a pate fraiche",
+    "url": "https://cuisine-libre.fr/fromages-a-pate-fraiche/#ingredients"
+  },
+  {
+    "index": 15,
+    "main": false,
+    "name": "fromages a pate molle",
+    "url": "https://cuisine-libre.fr/fromages-a-pate-molle/#ingredients"
+  },
+  {
+    "index": 16,
+    "main": false,
+    "name": "fromages a pate persillee",
+    "url": "https://cuisine-libre.fr/fromages-a-pate-persillee/#ingredients"
+  },
+  {
+    "index": 10,
+    "main": false,
+    "name": "abats",
+    "url": "https://cuisine-libre.fr/abats/#ingredients"
+  },
+  {
+    "index": 11,
+    "main": false,
+    "name": "cephalopodes",
+    "url": "https://cuisine-libre.fr/cephalopodes/#ingredients"
+  },
+  {
+    "index": 12,
+    "main": false,
+    "name": "coquillages",
+    "url": "https://cuisine-libre.fr/coquillages/#ingredients"
+  },
+  {
+    "index": 13,
+    "main": false,
+    "name": "crustaces",
+    "url": "https://cuisine-libre.fr/crustaces/#ingredients"
+  },
+  {
+    "index": 14,
+    "main": false,
+    "name": "fruits de mer",
+    "url": "https://cuisine-libre.fr/fruits-de-mer/#ingredients"
+  },
+  {
+    "index": 15,
+    "main": false,
+    "name": "gibiers",
+    "url": "https://cuisine-libre.fr/gibiers/#ingredients"
+  },
+  {
+    "index": 16,
+    "main": false,
+    "name": "insectes",
+    "url": "https://cuisine-libre.fr/insectes/#ingredients"
+  },
+  {
+    "index": 17,
+    "main": false,
+    "name": "poissons blancs",
+    "url": "https://cuisine-libre.fr/poissons-blancs/#ingredients"
+  },
+  {
+    "index": 18,
+    "main": false,
+    "name": "poissons et crustaces",
+    "url": "https://cuisine-libre.fr/poissons-et-crustaces/#ingredients"
+  },
+  {
+    "index": 19,
+    "main": false,
+    "name": "poissons gras",
+    "url": "https://cuisine-libre.fr/poissons-gras/#ingredients"
+  },
+  {
+    "index": 20,
+    "main": false,
+    "name": "viandes",
+    "url": "https://cuisine-libre.fr/viandes/#ingredients"
+  },
+  {
+    "index": 21,
+    "main": false,
+    "name": "viandes blanches",
+    "url": "https://cuisine-libre.fr/viandes-blanches/#ingredients"
+  },
+  {
+    "index": 22,
+    "main": false,
+    "name": "viandes rouges",
+    "url": "https://cuisine-libre.fr/viandes-rouges/#ingredients"
+  },
+  {
+    "index": 23,
+    "main": false,
+    "name": "volailles",
+    "url": "https://cuisine-libre.fr/volailles/#ingredients"
+  },
+  {
+    "index": 10,
+    "main": false,
+    "name": "huiles",
+    "url": "https://cuisine-libre.fr/huiles/#ingredients"
+  }
+]

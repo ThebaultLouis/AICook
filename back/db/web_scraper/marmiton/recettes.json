@@ -1,0 +1,230 @@
+[
+  {
+    "name": "Tarte thon et tomate",
+    "image": "https://assets.afcdn.com/recipe/20160325/3145_w350h250c1cx1500cy998.jpg",
+    "type_recette": "",
+    "nb_personne": "6",
+    "difficulty": "1",
+    "prix": "1",
+    "temps_total": 35,
+    "temps_prep": 10,
+    "temps_cuisson": 25,
+    "ingredients": [
+      { "value": "1", "unit": "", "index": 0 },
+      { "value": "20", "unit": "cl", "index": 1 },
+      { "value": "1", "unit": "", "index": 2 },
+      { "value": "150", "unit": "g", "index": 3 },
+      { "value": null, "unit": "", "index": 4 },
+      { "value": null, "unit": "", "index": 5 },
+      { "value": "50", "unit": "", "index": 6 },
+      { "value": "1", "unit": "", "index": 7 }
+    ],
+    "etapes": [
+      "Pr\u00e9chauffer le four \u00e0 210\u00b0C (thermostat 7).",
+      "Etaler la p\u00e2te bris\u00e9e et la piquer avec une fourchette. ",
+      "Emietter le thon sur la p\u00e2te.",
+      "M\u00e9langer dans un gros bol : la cr\u00e8me, le concentr\u00e9 de tomate, l'oeuf et le sel; verser la pr\u00e9paration sur le thon.",
+      "Saupoudrer d'herbes de Provence, recouvrir de fromage r\u00e2p\u00e9, puis faire cuire 25 min (selon puissance du four)."
+    ]
+  },
+  {
+    "name": "Tarte thon, tomate et moutarde",
+    "image": "https://assets.afcdn.com/recipe/20180628/80053_w350h250c1cx1944cy2592.jpg",
+    "type_recette": "",
+    "nb_personne": "4",
+    "difficulty": "1",
+    "prix": "1",
+    "temps_total": 55,
+    "temps_prep": 15,
+    "temps_cuisson": 40,
+    "ingredients": [
+      { "value": "1", "unit": "", "index": 8 },
+      { "value": "2", "unit": "", "index": 3 },
+      { "value": "2", "unit": "", "index": 9 },
+      { "value": "3", "unit": "", "index": 10 },
+      { "value": "2", "unit": "", "index": 7 },
+      { "value": "20", "unit": "cl", "index": 11 },
+      { "value": "3", "unit": "", "index": 12 },
+      { "value": "1", "unit": "", "index": 4 },
+      { "value": "2", "unit": "", "index": 13 }
+    ],
+    "etapes": [
+      "Etaler la p\u00e2te feuillet\u00e9e sur un moule \u00e0 quiche, piquer le fond de la p\u00e2te, puis recouvrir le fond avec la moutarde.",
+      "Emietter le thon et le r\u00e9partir sur le fond de la p\u00e2te. ",
+      "Laver les tomates et les essuyer, puis les couper en rondelles moyennes, et les disposer sur le thon.",
+      "Battre les oeufs en omelette, ajouter la cr\u00e8me fra\u00eeche plus le lait. ",
+      "Saler et poivrer.",
+      "Ajouter ce m\u00e9lange sur la p\u00e2te, thon, tomate.",
+      "Mettre au four (pr\u00e9-chauff\u00e9 \u00e0 200\u00b0C/th 6-7), et cuire environ 40 min (jusqu'\u00e0 ce que la tarte soit dor\u00e9e sans \u00eatre trop brunie!)."
+    ]
+  },
+  {
+    "name": "Tomates farcies facile",
+    "image": "https://assets.afcdn.com/recipe/20171012/73069_w350h250c1cx1944cy1292.jpg",
+    "type_recette": "",
+    "nb_personne": "4",
+    "difficulty": "1",
+    "prix": "1",
+    "temps_total": 80,
+    "temps_prep": 20,
+    "temps_cuisson": 60,
+    "ingredients": [
+      { "value": "500", "unit": "g", "index": 14 },
+      { "value": "4", "unit": "", "index": 9 },
+      { "value": "3", "unit": "", "index": 15 },
+      { "value": "2", "unit": "", "index": 16 },
+      { "value": null, "unit": "", "index": 17 },
+      { "value": null, "unit": "", "index": 18 },
+      { "value": null, "unit": "", "index": 19 },
+      { "value": null, "unit": "", "index": 13 },
+      { "value": null, "unit": "", "index": 4 }
+    ],
+    "etapes": [
+      "Eplucher et hacher les oignons. Eplucher et hacher les gousses d'ail.",
+      "Mettre la moiti\u00e9 des oignons dans la chair \u00e0 saucisse. Ajouter l'ail, le sel, le poivre et un peu de persil.",
+      "Couper le haut des tomates et les \u00e9vider. Poivrer et saler l'int\u00e9rieur. Mettre la farce \u00e0 l'int\u00e9rieur et remettre les chapeaux.",
+      "Mettre le reste des oignons dans un plat avec la chair des tomates.",
+      "Mettre les tomates farcies dans le plat. Parsemez d'un peu de thym et mette une noisette de beurre sur chaque tomates. Faire cuire au four chaud \u00e0 180\u00b0C (thermostat 6) pendant 1 heure environ.",
+      "Servir avec du riz."
+    ]
+  },
+  {
+    "name": "Crumble de tomates",
+    "image": "https://assets.afcdn.com/recipe/20130731/3495_w350h250c1cx996cy1504.jpg",
+    "type_recette": "",
+    "nb_personne": "4",
+    "difficulty": "1",
+    "prix": "1",
+    "temps_total": 65,
+    "temps_prep": 15,
+    "temps_cuisson": 50,
+    "ingredients": [
+      { "value": "6", "unit": "", "index": 9 },
+      { "value": "1", "unit": "", "index": 15 },
+      { "value": "4", "unit": "", "index": 20 },
+      { "value": "6", "unit": "", "index": 21 },
+      { "value": "4", "unit": "", "index": 22 }
+    ],
+    "etapes": [
+      "Couper les tomates en rondelles assez fines",
+      "puis les disposer dans un plat. ",
+      "Arroser d'un peu d'huile et saler.",
+      "Passer \u00e0 four chaud (thermostat 7/210\u00b0C) pendant 30 min.",
+      "Pendant ce temps, faire revenir sans coloration les oignons \u00e9minc\u00e9s finement.",
+      "Laisser refroidir quelques minutes, ajouter la chapelure, le parmesan et 2 bonnes cuill\u00e8res \u00e0 soupe d'huile.",
+      "Disposer ce m\u00e9lange sur les tomates. ",
+      "Remettre au four pour 20 min (thermostat 6).",
+      "D\u00e9guster."
+    ]
+  },
+  {
+    "name": "Tarte \u00e0 la tomate et saucisses Knacki",
+    "image": "https://assets.afcdn.com/recipe/20190715/95172_w350h250c1cx1920cy2700.jpg",
+    "type_recette": "",
+    "nb_personne": "6",
+    "difficulty": "1",
+    "prix": "1",
+    "temps_total": 50,
+    "temps_prep": 15,
+    "temps_cuisson": 35,
+    "ingredients": [
+      { "value": "1", "unit": "", "index": 23 },
+      { "value": "1", "unit": "", "index": 15 },
+      { "value": "6", "unit": "", "index": 24 },
+      { "value": "1", "unit": "", "index": 25 },
+      { "value": "4", "unit": "", "index": 9 },
+      { "value": "2", "unit": "", "index": 11 },
+      { "value": "1", "unit": "", "index": 10 },
+      { "value": "1", "unit": "", "index": 20 }
+    ],
+    "etapes": [
+      "Pr\u00e9chauffez votre four Th.7 (210\u00b0C). Dans un moule \u00e0 tarte faites pr\u00e9cuire 12 minutes la p\u00e2te \u00e0 tarte \u00e0 blanc selon le mode d'emploi.",
+      "Coupez les tomates et les Knacki\u00a0en rondelles et hachez les oignons.",
+      "Dans une po\u00eale, faites bien dorer les oignons 5 minutes avec l'huile. Laissez ti\u00e9dir et ajoutez\u00a0la cr\u00e8me et la moutarde.\u00a0Po\u00ealez les tomates 1 \u00e0\u00a02 minutes en les retournant \u00e0 mi-cuisson.",
+      "R\u00e9partissez la cr\u00e8me \u00e0 la moutarde sur le fond de tarte puis alternez\u00a0les tomates et les\u00a0Knacki. Faites cuire au four 20 \u00e0 25 minutes."
+    ]
+  },
+  {
+    "name": "Tomates farcies au ch\u00e8vre chaud",
+    "image": "https://assets.afcdn.com/recipe/20160610/7950_w350h250c1cx2000cy3000.jpg",
+    "type_recette": "",
+    "nb_personne": "6",
+    "difficulty": "1",
+    "prix": "1",
+    "temps_total": 50,
+    "temps_prep": 15,
+    "temps_cuisson": 35,
+    "ingredients": [
+      { "value": "1", "unit": "", "index": 26 },
+      { "value": "250", "unit": "g", "index": 27 },
+      { "value": "60", "unit": "g", "index": 28 },
+      { "value": null, "unit": "", "index": 5 },
+      { "value": null, "unit": "", "index": 4 },
+      { "value": null, "unit": "", "index": 13 }
+    ],
+    "etapes": [
+      "Faire revenir les lardons et les champignons dans une po\u00eale. Couper le dessus des tomates et les vider.",
+      "Couper le fromage de ch\u00e8vre en petits morceaux. M\u00e9langer les champignons, les lardons et le fromage de ch\u00e8vre, remplir les tomates avec cette mixture. Ajouter des herbes de provence.",
+      "Remettre \u00e0 leur place le dessus des tomates et mettre au four (210\u00b0C/thermostat 7) pendant 35 minutes."
+    ]
+  },
+  {
+    "name": "Quiche tomate, jambon, ch\u00e8vre",
+    "image": "https://assets.afcdn.com/recipe/20130518/57776_w350h250c1cx256cy192.jpg",
+    "type_recette": "",
+    "nb_personne": "8",
+    "difficulty": "1",
+    "prix": "1",
+    "temps_total": 50,
+    "temps_prep": 20,
+    "temps_cuisson": 30,
+    "ingredients": [
+      { "value": "1", "unit": "", "index": 0 },
+      { "value": "100", "unit": "g", "index": 29 },
+      { "value": "2", "unit": "", "index": 9 },
+      { "value": null, "unit": "", "index": 26 },
+      { "value": "2", "unit": "", "index": 7 },
+      { "value": "10", "unit": "cl", "index": 30 },
+      { "value": null, "unit": "", "index": 13 },
+      { "value": null, "unit": "", "index": 4 },
+      { "value": null, "unit": "", "index": 18 },
+      { "value": null, "unit": "", "index": 31 }
+    ],
+    "etapes": [
+      "Pr\u00e9chauffer le four \u00e0 180\u00b0C. ",
+      "Etaler la p\u00e2te bris\u00e9e dans un moule \u00e0 tarte. ",
+      "Disposer le jambon coup\u00e9 en d\u00e9s ou en morceaux, y ajouter des morceaux de fromage de ch\u00e8vre et terminer par les tomates coup\u00e9es en tranches. ",
+      "Battre avec une fourchette les oeufs, y ajouter la cr\u00e8me liquide, ainsi que le sel, le poivre et le persil. ",
+      "Verser cette pr\u00e9paration sur la quiche et parsemer du gruy\u00e8re r\u00e2p\u00e9. ",
+      "Il ne reste plus qu'\u00e0 enfourner et laisser cuire environ 30 mn jusqu'\u00e0 ce que la quiche soit bien dor\u00e9e. ",
+      "Vous pouvez accompagner cette quiche d'une salade verte avec des cerneaux de noix. ",
+      "Bon app\u00e9tit."
+    ]
+  },
+  {
+    "name": "Tarte \u00e0 la tomate rapide",
+    "image": "https://assets.afcdn.com/recipe/20160325/56973_w350h250c1cx1500cy1000.jpg",
+    "type_recette": "",
+    "nb_personne": "4",
+    "difficulty": "1",
+    "prix": "1",
+    "temps_total": 40,
+    "temps_prep": 10,
+    "temps_cuisson": 30,
+    "ingredients": [
+      { "value": "1", "unit": "", "index": 8 },
+      { "value": "8", "unit": "", "index": 32 },
+      { "value": "8", "unit": "", "index": 9 },
+      { "value": null, "unit": "", "index": 10 },
+      { "value": null, "unit": "", "index": 5 }
+    ],
+    "etapes": [
+      "Disposer la p\u00e2te dans un moule \u00e0 tarte. ",
+      "Etaler la moutarde en couche fine sur toute la surface de la p\u00e2te.",
+      "Ajouter les tranches de raclette afin que cela tapisse entierement le moule.",
+      "Plonger les tomates dans l'eau bouillante pendant moins d'1 minute dans l'eau afin de retirer la peau plus facilement puis les couper en rondelles tr\u00e8s fines. Les disposer dans le plat.",
+      "Ajouter les herbes de Provence.",
+      "Cuire \u00e0 four chaud (170\u00b0C) pendant 30 minutes environ."
+    ]
+  }
+]

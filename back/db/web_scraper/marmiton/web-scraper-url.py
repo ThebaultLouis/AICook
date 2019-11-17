@@ -3,8 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
-max_page = 5
-
+max_page = 10
 
 base_url = "https://www.marmiton.org/recettes/recherche.aspx?"
 ingredients = pd.read_json(r'ingredients.json')
@@ -28,6 +27,8 @@ for index, ingredient in ingredients.iterrows():
             name = card_soup.h4.string
             url = "https://www.marmiton.org" + card_soup.a['href']
             image = card_soup.img['src']
+            if url in map(lambda x: x['url'], recettes):
+                break
             recettes.append({
                 'ingredient_name': ingredient['name'],
                 # 'ingredient_index': ingredient['index'],
